@@ -72,6 +72,7 @@ class Owner
     self.pets.each do |type, pet|
         if pet.clear
           self.mood = "nervous"
+        end
       end
     end
 end
