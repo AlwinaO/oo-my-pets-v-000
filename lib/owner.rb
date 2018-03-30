@@ -73,8 +73,6 @@ class Owner
       # binding.pry
         if pet.clear
           self.mood = "nervous"
-        else
-          self.mood = "happy"
         end
         self.pets
       end
