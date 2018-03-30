@@ -70,7 +70,7 @@ class Owner
   def sell_pets
     # binding.pry
     self.pets.each do |type, pet|
-      # binding.pry
+      binding.pry
         if pet.clear
           self.mood = "nervous"
         else
