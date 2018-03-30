@@ -77,4 +77,9 @@ class Owner
           # binding.pry
       end
     end
+
+    def list_pets
+      pets[:dogs].length
+
+    end
 end
