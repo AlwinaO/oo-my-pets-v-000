@@ -70,12 +70,14 @@ class Owner
   def sell_pets
     # binding.pry
     self.pets.each do |type, pet|
+      pet.clear
       binding.pry
-        if pet.clear
+        if self.pets.empty?
           self.mood = "nervous"
         else
           self.mood = "happy"
         end
+        self.pets
       end
     end
 end
