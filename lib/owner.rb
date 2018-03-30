@@ -25,7 +25,6 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
 
     @@all << self
-
   end
 
   def say_species
@@ -74,5 +73,5 @@ class Owner
         if pet.clear
           self.mood = "nervous"
       end
-
     end
+end
