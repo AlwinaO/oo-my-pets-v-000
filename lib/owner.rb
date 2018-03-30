@@ -74,7 +74,7 @@ class Owner
         if pet.clear
           self.mood = "nervous"
         end
-        self.pets
+        # self.pets
       end
     end
 end
