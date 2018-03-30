@@ -73,7 +73,7 @@ class Owner
 
         if pet.clear
           self.mood = "nervous"
-          binding.pry
+          # binding.pry
         end
         # self.pets
       end
